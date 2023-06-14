@@ -1,36 +1,17 @@
-<html>
-<body>
-<script>
-
-// words for random:
-    const words = [];
-    words[1] = "word 1";
-    words[2] = "word 2";
-    words[3] = "word 3";
-    words[4] = "word 4";
-    words[5] = "word 5";
-    words[6] = "word 6";
-    words[7] = "word 7";
-    words[8] = "word 8";
-    words[9] = "word 9";
-    words[10] = "word 10";
-    words[11] = "word 11";
-    words[12] = "word 12";
-    words[13] = "word 13";
-    words[14] = "word 14";
-    words[15] = "word 15";
-    words[16] = "word 16";
-    words[17] = "word 17";
-    words[18] = "word 18";
-    words[19] = "word 19";
-   words[20] = "word 20";
-  
-
-// code for random
-     var random = Math.floor(Math.random() * (20)) + 1;
-    var final = words[random];
-document.write(final);
-
-</script>
-</body>
-</html>
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <script src="script/typewriter.js"></script>
+        <link rel="stylesheet" href="res/textbox.css">
+    </head> 
+    <body onload="initialize()">
+        <audio controls autoplay style="display: none;">
+            <source src="audio/ievan intro.mp3" type="audio/mpeg">
+        </audio>
+        <div class="borderwrap">
+            <div class="border darken">
+                <div id="container"></div>
+            </div>
+        </div>
+    </body>
+</html> 
